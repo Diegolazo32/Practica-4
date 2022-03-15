@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 4
+    </title>
+
+    <style>
+        .item:hover {
+            background-color: goldenrod;
+        }
+
+        #container,
+        #footer {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            border-radius: 15px;
+            background-color: blue;
+            color: aliceblue;
+            box-shadow: 1px 5px black;
+            padding: 20px;
+            font-family: Arial;
+
+        }
+
+        #cont2 {
+            font-family: Arial;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            align-items: center;
+
+        }
+
+        #main {
+            padding: 2%;
+            margin: 2%;
+            width: 80%;
+            height: 320px;
+            border-radius: 15px;
+            background-color: green;
+            color: aliceblue;
+            box-shadow: 1px 5px black;
+        }
+
+        #Sidebar {
+            padding: 2%;
+            margin: 2%;
+            border-radius: 15px;
+            height: 320px;
+            width: 20%;
+            background-color: orangered;
+            color: white;
+            box-shadow: 1px 5px black;
+        }
+
+        div.item {
+
+            border-radius: 15px;
+            width: 90px;
+            height: 75px;
+            background-color: rgb(0, 66, 0);
+            color: aliceblue;
+            box-shadow: 1px 5px black;
+
+        }
+
+        #cont3,
+        #cont4,
+        #cont5 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        #cont5 :nth-child(4) {
+            background-color: green;
+            box-shadow: 1px 5px green;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="container">
+        <div id="header">
+            <p>header</p>
+        </div>
+    </div>
+
+    <div id="cont2">
+
+        <div id="main">
+
+            <p>Main</p>
+            <center>
+                <div id="cont3">
+                    <div class="item">
+                        <p>item</p>
+                    </div>
+                    <div class="item">
+                        <p>item</p>
+                    </div>
+                    <div class="item">
+                        <p>item</p>
+                    </div>
+                    <div class="item">
+                        <p>item</p>
+                    </div>
+                </div>
+                <br>
+                <div id="cont4">
+                    <div class="item">
+                        <p>item</p>
+                    </div>
+                    <div class="item">
+                        <p>item</p>
+                    </div>
+                    <div class="item">
+                        <p>item</p>
+                    </div>
+                    <div class="item">
+                        <p>item</p>
+                    </div>
+                </div>
+                <br>
+                <div id="cont5">
+                    <div class="item">
+                        <p>item</p>
+                    </div>
+                    <div class="item">
+                        <p>item</p>
+                    </div>
+                    <div class="item">
+                        <p>item</p>
+                    </div>
+                    <div class="item">
+                        <p></p>
+                    </div>
+                </div>
+            </center>
+
+        </div>
+
+        <div id="Sidebar">
+            <p>sidebar</p>
+        </div>
+    </div>
+
+    <div id="footer">
+        <p>footer</p>
+    </div>
+
+</body>
+
+</html>
